@@ -1,0 +1,34 @@
+{
+  "name": "@hps/request",
+  "version": "1.0.11",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/qs": "^6.9.10",
+    "typescript": "^5.3.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.9.0",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2"
+  },
+  "dependencies": {
+    "@hps/cache": "^1.0.10",
+    "axios": "^1.6.2",
+    "qs": "^6.11.2",
+    "ts-node": "^10.9.2"
+    
+  }
+}
